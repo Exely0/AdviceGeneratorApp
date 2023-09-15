@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./tailwindstyle.css" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-blue-950 flex justify-center items-center">
+    
+    <main class="font-semibold relative w-[375px] md:w-[550px] bg-gray-900 gap-5 px-8 pt-9 pb-11 flex flex-col justify-center items-center rounded-xl">
+        <div id="advice-id" class="text-green-600 bg-green-600 rounded-xl">
+            <p>Advice n°...</p>
+        </div>
+        <!--advide-->
+        <div id="advice" class=" text-white text-center bg-white rounded-xl">
+            <p>Ceci est un conseil</p>
+        </div>
+        <div class="md:hidden">
+            <img src="advice-generator-app-main/images/pattern-divider-mobile.svg" alt="divider">
+        </div>
+        <div class="hidden md:block">
+            <img src="advice-generator-app-main/images/pattern-divider-desktop.svg" alt="divider">
+        </div>
+        <!--button-->
+        <div id="button" class="cursor-pointer bg-green-600 p-3 rounded-full absolute bottom-[-1.5rem;] hover:bg-green-900">
+            <img src="advice-generator-app-main/images/icon-dice.svg" alt="dice">
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
